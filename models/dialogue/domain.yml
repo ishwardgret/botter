@@ -1,0 +1,40 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_account_query
+- utter_loan_query
+- utter_query_atm
+- utter_atm_complaint
+- utter_goodbye
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- greet:
+    use_entities: true
+- query_account:
+    use_entities: true
+- query_loan:
+    use_entities: true
+- query_atm:
+    use_entities: true
+- query_atm_complain:
+    use_entities: true
+- goodbye:
+    use_entities: true
+slots: {}
+templates:
+  utter_account_query:
+  - text: Here is the different account supported by us
+  utter_atm_complaint:
+  - text: I am going to connect you to our tecnial assistant
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hello how are you?
+  utter_loan_query:
+  - text: Here is the list of loans for us
+  utter_query_atm:
+  - text: Here are different types of card services

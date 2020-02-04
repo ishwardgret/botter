@@ -1,0 +1,69 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hlo"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "query_loan",
+        "text": "What is the loan intrest?"
+      },
+      {
+        "intent": "query_loan",
+        "text": "What are different schemes of loan?"
+      },
+      {
+        "intent": "query_atm",
+        "text": "How to have a debit card?"
+      },
+      {
+        "intent": "query_atm",
+        "text": "Different types of card available"
+      },
+      {
+        "intent": "query_atm_complain",
+        "text": "Cannot withdraw money"
+      },
+      {
+        "intent": "query_atm_complain",
+        "text": "Atm card got stuck"
+      },
+      {
+        "intent": "query_atm_complain",
+        "text": "Fraud withdraw of money"
+      },
+      {
+        "intent": "query_atm",
+        "text": "How to open master card account"
+      },
+      {
+        "intent": "query_account",
+        "text": "I want to create new  account"
+      },
+      {
+        "intent": "query_account",
+        "text": "I want to open new account"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

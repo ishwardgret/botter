@@ -1,0 +1,24 @@
+{
+  "states": [
+    "intent_goodbye",
+    "intent_greet",
+    "intent_query_account",
+    "intent_query_atm",
+    "intent_query_atm_complain",
+    "intent_query_loan",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_action_back",
+    "prev_utter_greet",
+    "prev_utter_account_query",
+    "prev_utter_loan_query",
+    "prev_utter_query_atm",
+    "prev_utter_atm_complaint",
+    "prev_utter_goodbye"
+  ]
+}

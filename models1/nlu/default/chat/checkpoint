@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/mac/Documents/myrepo/python-learning/bot/./models/nlu/default/chat/component_4_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "/Users/mac/Documents/myrepo/python-learning/bot/./models/nlu/default/chat/component_4_EmbeddingIntentClassifier.ckpt"

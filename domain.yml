@@ -1,0 +1,35 @@
+intents:
+  - greet
+  - query_account
+  - query_loan
+  - query_atm
+  - query_atm_complain
+  - goodbye
+
+actions:
+  - utter_greet
+  - utter_account_query
+  - utter_loan_query
+  - utter_query_atm
+  - utter_atm_complaint
+  - utter_goodbye
+
+
+templates:
+  utter_greet:
+  - text: "Hello how are you?"
+
+  utter_account_query:
+  - text: "Here is the different account supported by us"
+
+  utter_loan_query:
+  - text: "Here is the list of loans for us" 
+  
+  utter_query_atm:
+  - text: "Here are different types of card services"  
+
+  utter_atm_complaint:
+  - text: "I am going to connect you to our tecnial assistant"
+
+  utter_goodbye:
+  - text: "Bye"

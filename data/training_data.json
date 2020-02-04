@@ -1,0 +1,81 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hlo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "What is the loan intrest?",
+        "intent": "query_loan",
+        "entities": []
+      },
+      {
+        "text": "What are different schemes of loan?",
+        "intent": "query_loan",
+        "entities": []
+      },
+      {
+        "text": "How to have a debit card?",
+        "intent": "query_atm",
+        "entities": []
+      },
+      {
+        "text": "Different types of card available",
+        "intent": "query_atm",
+        "entities": []
+      },
+      {
+        "text": "Cannot withdraw money",
+        "intent": "query_atm_complain",
+        "entities": []
+      },
+      {
+        "text": "Atm card got stuck",
+        "intent": "query_atm_complain",
+        "entities": []
+      },
+      {
+        "text": "Fraud withdraw of money",
+        "intent": "query_atm_complain",
+        "entities": []
+      },
+      {
+        "text": "How to open master card account",
+        "intent": "query_atm",
+        "entities": []
+      },
+      {
+        "text": "I want to create new  account",
+        "intent": "query_account",
+        "entities": []
+      },
+      {
+        "text": "I want to open new account",
+        "intent": "query_account",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      }
+    ]
+  }
+}

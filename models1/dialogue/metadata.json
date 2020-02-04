@@ -1,0 +1,39 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "utter_loan_query": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "utter_atm_complaint": {
+      "slots": []
+    },
+    "utter_account_query": {
+      "slots": []
+    },
+    "utter_query_atm": {
+      "slots": []
+    }
+  },
+  "python": "3.7.3",
+  "max_histories": [
+    1,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ],
+  "trained_at": "20190521-110141",
+  "rasa_core": "0.14.0",
+  "tensorflow": "1.13.1",
+  "sklearn": "0.20.3"
+}
